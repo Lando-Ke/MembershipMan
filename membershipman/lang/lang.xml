@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  
+  <!-- Global Phrases -->
+  <phrase section="Global" data="ACTIONS">Actions</phrase>
+  <phrase section="Global" data="ACTIVE">Active</phrase>
+  <phrase section="Global" data="AGO">ago</phrase>
+  <phrase section="Global" data="ALERT">Alert</phrase>
+  <phrase section="Global" data="ALL">All</phrase>
+  <phrase section="Global" data="BACK">back</phrase>
+  <phrase section="Global" data="BROWSE">Browse...</phrase>
+  <phrase section="Global" data="CANCEL">Cancel</phrase>
+  <phrase section="Global" data="CHARSET">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</phrase>
+  <phrase section="Global" data="CHECKOUT">Checkout</phrase>
+  <phrase section="Global" data="CHOOSE">Choose a file...</phrase>
+  <phrase section="Global" data="CLEAR">Clear</phrase>
+  <phrase section="Global" data="CLOSE">Close</phrase>
+  <phrase section="Global" data="COMPLETED">Completed</phrase>
+  <phrase section="Global" data="CON_PAGE">Content Page</phrase>
+  <phrase section="Global" data="CONTENT_NOT_FOUND">No Content found under this page !.</phrase>
+  <phrase section="Global" data="COPY">Copy</phrase>
+  <phrase section="Global" data="CREATED">Created</phrase>
+  <phrase section="Global" data="CUT">Cut</phrase>
+  <phrase section="Global" data="DAYS">Day(s)</phrase>
+  <phrase section="Global" data="DEFAULT">Default</phrase>
+  <phrase section="Global" data="DEL_CONFIRM">Are you sure you want to delete this record?</phrase>
+  <phrase section="Global" data="DEL_CONFIRM1">This action cannot be undone!!!</phrase>
+  <phrase section="Global" data="DELCONFIRM1">Are you sure you want to delete this record?</phrase>
+  <phrase section="Global" data="DELCONFIRM2">This action cannot be undone!!!</phrase>
+  <phrase section="Global" data="DELETE">Delete</phrase>
+  <phrase section="Global" data="DELETE_REC">Delete Record</phrase>
+  <phrase section="Global" data="DELETED">deleted successfully!</phrase>
+  <phrase section="Global" data="DOWNLOAD">Download</phrase>
+  <phrase section="Global" data="EDIT">Edit</phrase>
+  <phrase section="Global" data="EMAIL">Email</phrase>
+  <phrase section="Global" data="ERROR">Error</phrase>
+  <phrase section="Global" data="EXPIRE">Expire</phrase>
+  <phrase section="Global" data="EXT_LINK">External Link</phrase>
+  <phrase section="Global" data="FILE_ERR">File could not be moved from temporary upload folder to image folder.</phrase>
+  <phrase section="Global" data="FIND">Find</phrase>
+  <phrase section="Global" data="FREE">FREE</phrase>
+  <phrase section="Global" data="FROM">From</phrase>
+  <phrase section="Global" data="FULLNAME">Full Name</phrase>
+  <phrase section="Global" data="GO">GO</phrase>
+  <phrase section="Global" data="GUEST">Guest</phrase>
+  <phrase section="Global" data="HOME">Home</phrase>
+  <phrase section="Global" data="HELLO">Hello</phrase>
+  <phrase section="Global" data="IMAGE">Image</phrase>
+  <phrase section="Global" data="INACTIVE">Inactive</phrase>
+  <phrase section="Global" data="INVOICE">Invoice</phrase>
+  <phrase section="Global" data="INFO">Info</phrase>
+  <phrase section="Global" data="LANGUAGE">Language</phrase>
+  <phrase section="Global" data="MEMBERSHIP">Membership</phrase>
+  <phrase section="Global" data="MENU">Menu</phrase>
+  <phrase section="Global" data="METADESC">Meta Description</phrase>
+  <phrase section="Global" data="METAKEYS">Meta Keywords</phrase>
+  <phrase section="Global" data="MODULE">Module</phrase>
+  <phrase section="Global" data="MONTHS">Month(s)</phrase>
+  <phrase section="Global" data="MOVE">Move</phrase>
+  <phrase section="Global" data="NO">No</phrase>
+  <phrase section="Global" data="NOFILE">No file...</phrase>
+  <phrase section="Global" data="NOTPUBLISHED">Not Published</phrase>
+  <phrase section="Global" data="OFF">Off</phrase>
+  <phrase section="Global" data="ON">On</phrase>
+  <phrase section="Global" data="PAGE">Page</phrase>
+  <phrase section="Global" data="PAGE_NOT_FOUND">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable!</phrase>
+  <phrase section="Global" data="PASSWORD">Password</phrase>
+  <phrase section="Global" data="PASTE">Paste</phrase>
+  <phrase section="Global" data="PENDING">Pending</phrase>
+  <phrase section="Global" data="POPULARITY">Popularity</phrase>
+  <phrase section="Global" data="PRICE">Price</phrase>
+  <phrase section="Global" data="PROCCESS_C_ERR">An error occurred while processing configuration file</phrase>
+  <phrase section="Global" data="PUBLIC">Public</phrase>
+  <phrase section="Global" data="PUBLISHED">Published</phrase>
+  <phrase section="Global" data="RECURRING">Recurring</phrase>
+  <phrase section="Global" data="REFRESH">Refresh</phrase>
+  <phrase section="Global" data="REGISTERED">Registered</phrase>
+  <phrase section="Global" data="REGISTRATIONS">Registrations</phrase>
+  <phrase section="Global" data="REMOVE">Remove</phrase>
+  <phrase section="Global" data="RENAME">Rename</phrase>
+  <phrase section="Global" data="REQ_FIELD">Required Field.</phrase>
+  <phrase section="Global" data="REQ_FIELDN">Non Required Field.</phrase>
+  <phrase section="Global" data="REQ1">Fields marked</phrase>
+  <phrase section="Global" data="REQ2">are required.</phrase>
+  <phrase section="Global" data="SAVE">Save</phrase>
+  <phrase section="Global" data="SEARCH">Search</phrase>
+  <phrase section="Global" data="SEARCH2">type and press enter...</phrase>
+  <phrase section="Global" data="SELECTMULTI">Select Some Options</phrase>
+  <phrase section="Global" data="SORTING">Sorting</phrase>
+  <phrase section="Global" data="SUBMIT">Submit</phrase>
+  <phrase section="Global" data="SUCCESS">Success</phrase>
+  <phrase section="Global" data="SYSERROR">An error occurred while processing this request. Please contact administrator.</phrase>
+  <phrase section="Global" data="SYSTEM_ERR">Please complete the following fields:</phrase>
+  <phrase section="Global" data="SYSTEM_PROCCESS">Nothing to process.</phrase>
+  <phrase section="Global" data="TO">To</phrase>
+  <phrase section="Global" data="TOAMT">Total Amount</phrase>
+  <phrase section="Global" data="TRANSACTION">Transaction</phrase>
+  <phrase section="Global" data="UPDATE">Update</phrase>
+  <phrase section="Global" data="UPDATED">updated successfully!</phrase>
+  <phrase section="Global" data="UPLOAD">Upload</phrase>
+  <phrase section="Global" data="USER">User</phrase>
+  <phrase section="Global" data="USER_A">Active</phrase>
+  <phrase section="Global" data="USER_B">Banned</phrase>
+  <phrase section="Global" data="USER_I">Inactive</phrase>
+  <phrase section="Global" data="USER_P">Pending</phrase>
+  <phrase section="Global" data="USERNAME">Username</phrase>
+  <phrase section="Global" data="VAT">Vat/Tax</phrase>
+  <phrase section="Global" data="VIEW">View</phrase>
+  <phrase section="Global" data="WEEKS">Week(s)</phrase>
+  <phrase section="Global" data="WELCOME">Welcome</phrase>
+  <phrase section="Global" data="WORKING">working....</phrase>
+  <phrase section="Global" data="YEARS">Year(s)</phrase>
+  <phrase section="Global" data="YES">Yes</phrase>
+  <phrase section="Global" data="YOUAREHERE">You are here</phrase>
+  
+  <!-- Months -->
+  <phrase data="JAN">January</phrase>
+  <phrase data="FEB">February</phrase>
+  <phrase data="MAR">March</phrase>
+  <phrase data="APR">April</phrase>
+  <phrase data="MAY">May</phrase>
+  <phrase data="JUN">June</phrase>
+  <phrase data="JUL">July</phrase>
+  <phrase data="AUG">August</phrase>
+  <phrase data="SEP">September</phrase>
+  <phrase data="OCT">October</phrase>
+  <phrase data="NOV">November</phrase>
+  <phrase data="DEC">December</phrase>
+  
+  <!-- Months Short -->
+  <phrase data="JA_">Jan</phrase>
+  <phrase data="FE_">Feb</phrase>
+  <phrase data="MA_">Mar</phrase>
+  <phrase data="AP_">Apr</phrase>
+  <phrase data="MY_">May</phrase>
+  <phrase data="JU_">Jun</phrase>
+  <phrase data="JL_">Jul</phrase>
+  <phrase data="AU_">Aug</phrase>
+  <phrase data="SE_">Sep</phrase>
+  <phrase data="OC_">Oct</phrase>
+  <phrase data="NO_">Nov</phrase>
+  <phrase data="DE_">Dec</phrase>
+  
+  <!-- Day Names -->
+  <phrase section="Localization" data="MONDAY">Monday</phrase>
+  <phrase section="Localization" data="TUESDAY">Tuesday</phrase>
+  <phrase section="Localization" data="WEDNESDAY">Wednesday</phrase>
+  <phrase section="Localization" data="THURSDAY">Thursday</phrase>
+  <phrase section="Localization" data="FRIDAY">Friday</phrase>
+  <phrase section="Localization" data="SATURDAY">Saturday</phrase>
+  <phrase section="Localization" data="SUNDAY">Sunday</phrase>
+  
+  <!-- Day Names Short -->
+  <phrase section="Localization" data="MON">Mon</phrase>
+  <phrase section="Localization" data="TUE">Tue</phrase>
+  <phrase section="Localization" data="WED">Wed</phrase>
+  <phrase section="Localization" data="THU">Thu</phrase>
+  <phrase section="Localization" data="FRI">Fri</phrase>
+  <phrase section="Localization" data="SAT">Sat</phrase>
+  <phrase section="Localization" data="SUN">Sun</phrase>
+  
+  <!-- Day Names Min -->
+  <phrase section="Localization" data="MO">M</phrase>
+  <phrase section="Localization" data="TU">T</phrase>
+  <phrase section="Localization" data="WE">W</phrase>
+  <phrase section="Localization" data="TH">T</phrase>
+  <phrase section="Localization" data="FR">F</phrase>
+  <phrase section="Localization" data="SA">S</phrase>
+  <phrase section="Localization" data="SU">S</phrase>
+  <phrase section="Localization" data="TODAY">Today</phrase>			
+  <phrase section="Localization" data="THIS_WEEK">This Week</phrase>			
+  <phrase section="Localization" data="THIS_MONTH">This Month</phrase>			
+  <phrase section="Localization" data="THIS_YEAR">This Year</phrase>
+  <phrase section="Localization" data="THIS_ALL">From Begining</phrase>
+  <phrase section="Localization" data="DAYS">Days</phrase>
+  <phrase section="Localization" data="WEEKS">Weeks</phrase>
+  <phrase section="Localization" data="MONTHS">Months</phrase>
+  <phrase section="Localization" data="YEARS">Years</phrase>
+
+  <phrase section="Localization" data="HI_M">Good Morning!</phrase>
+  <phrase section="Localization" data="HI_A">Good Afternoon!</phrase>
+  <phrase section="Localization" data="HI_E">Good Evening!</phrase>
+  
+  <!-- Admin Navigation -->
+  <phrase section="Admin Menus" data="N_DASH">Dashboard</phrase>
+  <phrase section="Admin Menus" data="N_CONTENT">Content Manager</phrase>
+  <phrase section="Admin Menus" data="N_USTATS">User Statistics</phrase>
+  <phrase section="Admin Menus" data="N_USERS">Users Management</phrase>
+  <phrase section="Admin Menus" data="N_CONF">Configuration</phrase>
+  <phrase section="Admin Menus" data="N_EMAILS">Email Templates</phrase>
+  <phrase section="Admin Menus" data="N_NEWSL">Newsletter</phrase>
+  <phrase section="Admin Menus" data="N_NEWS">News Manager</phrase>
+  <phrase section="Admin Menus" data="N_FIELDS">Custom Fields</phrase>
+  <phrase section="Admin Menus" data="N_COUNTRIES">Countries</phrase>
+  <phrase section="Admin Menus" data="N_LANGM">Language Manager</phrase>
+  <phrase section="Admin Menus" data="N_MEMS">Memberships</phrase>
+  <phrase section="Admin Menus" data="N_MEMSM">Manage Memberships</phrase>
+  <phrase section="Admin Menus" data="N_GATE">Payment Gateways</phrase>
+  <phrase section="Admin Menus" data="N_TXN">Transaction Records</phrase>
+  <phrase section="Admin Menus" data="N_VIEWS">View site</phrase>
+  <phrase section="Admin Menus" data="N_DISC">Discounts/Coupons</phrase>
+  <phrase section="Admin Menus" data="N_LOGOUT">Logout</phrase>
+  <phrase section="Admin Menus" data="N_BACK">System Backup</phrase>
+  <phrase section="Admin Menus" data="N_SYSSONF">System Configuration</phrase>
+  <phrase section="Admin Menus" data="N_SYSMTNC">System Maintenenace</phrase>
+  <phrase section="Admin Menus" data="N_HELP">Help Section</phrase>
+  <phrase section="Admin Menus" data="N_HELP_LP">Login Based Protection</phrase>
+  <phrase section="Admin Menus" data="N_HELP_LR">Login Redirect</phrase>
+  <phrase section="Admin Menus" data="N_HELP_MP">Membership Protection</phrase>
+  <phrase section="Admin Menus" data="N_HELP_CL">Custom Login Form</phrase>
+  <phrase section="Admin Menus" data="N_HELP_CJ">Cron Jobs</phrase>
+  <phrase section="Admin Menus" data="N_HELP_PB">Page Builder</phrase>
+  
+  <!-- User Account/Register/Login/Activation -->
+  <phrase section="Accounts" data="LG_ERROR1">Please enter valid username and password.</phrase>			
+  <phrase section="Accounts" data="LG_ERROR2">Login and/or password did not match to the database.</phrase>			
+  <phrase section="Accounts" data="LG_ERROR3">Your account has been banned.</phrase>			
+  <phrase section="Accounts" data="LG_ERROR4">Your account it's not activated.</phrase>			
+  <phrase section="Accounts" data="LG_ERROR5">You need to verify your email address.</phrase>			
+  <phrase section="Accounts" data="UA_AC_ACC">Are you sure you want to activate this user account?</phrase>			
+  <phrase section="Accounts" data="UA_AC_ACC2">Email notification will be sent as well.</phrase>			
+  <phrase section="Accounts" data="UA_ACC_ERR1">You must be registered and logged in to access this page.</phrase>			
+  <phrase section="Accounts" data="UA_ACC_ERR2">You must have valid membership to access this page.</phrase>			
+  <phrase section="Accounts" data="UA_ACC_ERR3">Please upgrade your membership in order to access this page.</phrase>			
+  <phrase section="Accounts" data="UA_ACC_MEMBREQ">One of the following memberships are required:</phrase>			
+  <phrase section="Accounts" data="UA_ACTIVATE">Activate Membership</phrase>			
+  <phrase section="Accounts" data="UA_ACTIVATE_ACC">Activate Account</phrase>			
+  <phrase section="Accounts" data="UA_AVATAR_SIZE">Uploaded image is larger than 300Kb</phrase>			
+  <phrase section="Accounts" data="UA_BLOGIN">back to login</phrase>			
+  <phrase section="Accounts" data="UA_BUY">Purchase Membership</phrase>			
+  <phrase section="Accounts" data="UA_CUR_MEMBERSHIP">Current Membership</phrase>			
+  <phrase section="Accounts" data="UA_INFO2">Member Login</phrase>			
+  <phrase section="Accounts" data="UA_INFO4">Please fill out the form below to become registered member.</phrase>			
+  <phrase section="Accounts" data="UA_INFO5">Here you can activate your account. Please enter your email address and activation code received.</phrase>			
+  <phrase section="Accounts" data="UA_LOGIN">Login</phrase>			
+  <phrase section="Accounts" data="UA_LOGINNOW">Login Now</phrase>			
+  <phrase section="Accounts" data="UA_MAX_LIMIT">We are sorry, maximum number of registered users have been reached.</phrase>			
+  <phrase section="Accounts" data="UA_NO_MEMBERSHIP">No Membership</phrase>			
+  <phrase section="Accounts" data="UA_NOMORE_REG">We are sorry, at this point we do not accept any more registrations.</phrase>			
+  <phrase section="Accounts" data="UA_P_SUMMARY">Purchase Summary</phrase>
+  <phrase section="Accounts" data="UA_P_PAYWITH">Pay With</phrase>			
+  <phrase section="Accounts" data="UA_PASS_R_ERR">There was an error during the process. Please contact the administrator.</phrase>			
+  <phrase section="Accounts" data="UA_PASS_R_OK">You have successfully changed your password. Please check your email for further info!</phrase>			
+  <phrase section="Accounts" data="UA_PASS_RSUBMIT">Submit Request</phrase>			
+  <phrase section="Accounts" data="UA_PASS_RTOTAL">Captcha Code</phrase>			
+  <phrase section="Accounts" data="UA_PASS_RTOTAL_R">Please enter captcha code</phrase>			
+  <phrase section="Accounts" data="UA_PASS_RTOTAL_R1">Entered captcha code is incorrect</phrase>			
+  <phrase section="Accounts" data="UA_PASSWORD2">Repeat Password</phrase>			
+  <phrase section="Accounts" data="UA_PASSWORD2_T">Password must be at least 6 characters long.</phrase>			
+  <phrase section="Accounts" data="UA_REG_ACC">Register Account</phrase>			
+  <phrase section="Accounts" data="UA_REG_ERR">There was an error during registration process. Please contact the administrator...</phrase>			
+  <phrase section="Accounts" data="UA_REG_OK">You have successfully registered. Please check your email for further information!</phrase>			
+  <phrase section="Accounts" data="UA_REG_RTOTAL">Captcha Code</phrase>			
+  <phrase section="Accounts" data="UA_REG_RTOTAL_R">Please enter captcha code.</phrase>			
+  <phrase section="Accounts" data="UA_REG_RTOTAL_R1">Entered captcha code incorrect.</phrase>			
+  <phrase section="Accounts" data="UA_REGISTER">Register</phrase>			
+  <phrase section="Accounts" data="UA_REGPCKG">Please Register</phrase>			
+  <phrase section="Accounts" data="UA_REGPCKG2">to select desired membership.</phrase>			
+  <phrase section="Accounts" data="UA_SEL_MEMBERSHIP">Manage Memberships</phrase>			
+  <phrase section="Accounts" data="UA_SUBTITLE1">Manage Profile</phrase>			
+  <phrase section="Accounts" data="UA_SUBTITLE2">Please enter your valid username and password to login to your account.</phrase>			
+  <phrase section="Accounts" data="UA_SUBTITLE3">Enter your username and email address below to reset your password. A verification token will be sent to your email address. Once you have received the token, you will be able to reset your password.</phrase>			
+  <phrase section="Accounts" data="UA_SUBTITLE4">Create an Account</phrase>			
+  <phrase section="Accounts" data="UA_SUBTITLE5">Activate Your Account</phrase>
+  <phrase section="Accounts" data="UA_SUBTITLE6">Membership Packages</phrase>	
+  <phrase section="Accounts" data="UA_TITLE1">Manage Your Account</phrase>			
+  <phrase section="Accounts" data="UA_TITLE2">Account Login</phrase>			
+  <phrase section="Accounts" data="UA_TITLE3">lost password?</phrase>			
+  <phrase section="Accounts" data="UA_TITLE4">User Registration</phrase>			
+  <phrase section="Accounts" data="UA_TITLE5">Account Activation</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN">Activation Token</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN_OK1">You have successfully activated your account!</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN_OK2">Your account is now active. However you still need to wait for administrative approval.</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN_R">This account has been already activated!</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN_R_ERR">There was an error during the activation process. Please contact the administrator.</phrase>			
+  <phrase section="Accounts" data="UA_TOKEN_R1">The token code is not valid"</phrase>			
+  <phrase section="Accounts" data="UA_UPDATE">Update Profile</phrase>			
+  <phrase section="Accounts" data="UA_UPDATEOK">You have successfully updated your profile.</phrase>			
+  <phrase section="Accounts" data="UA_VALID_UNTIL">Valid Until</phrase>	
+  <phrase section="Accounts" data="UA_TRIAL_USED">Sorry, you have already used your trial membership!</phrase>			
+  <phrase section="Accounts" data="UA_MEM_ACTIVE_OK">You have successfully activated </phrase>			
+  <phrase section="Accounts" data="UA_MEM_ACTIVE_ERR">Sorry there was an error activating your membership. Please contact the administrator!</phrase>	
+
+  
+  <!-- Admin Backup -->
+  <phrase section="Database Backup" data="BK_BACKUP_OK">Backup created successfully!</phrase>
+  <phrase section="Database Backup" data="BK_RESTORE_OK">Database [NAME] restored successfully!</phrase>
+  <phrase section="Database Backup" data="BK_DELETE_OK">Backup [NAME] deleted successfully!</phrase>
+  <phrase section="Database Backup" data="BK_TITLE">Manage Backups</phrase>
+  <phrase section="Database Backup" data="BK_INFO">Here you can backup and restore the database. Make sure your database is backed up frequently. Click on Create Backup to manually backup your database. The backups are stored in the [/admin/backups/] folder and can be downloaded from the list below. Your most recent backup is highlighted. Once you create backup, make sure you download it, and delete the rest.</phrase>
+  <phrase section="Database Backup" data="BK_CREATE">Create Backup</phrase>
+  <phrase section="Database Backup" data="BK_RESTORE_DB">Restore</phrase>
+  <phrase section="Database Backup" data="BK_RESTORE_DB1">Restore Backup</phrase>
+  <phrase section="Database Backup" data="BK_DORESTORE1">Are you sure you want to restore this backup?</phrase>
+  <phrase section="Database Backup" data="BK_DORESTORE2">This action can not be undone.</phrase>
+
+  <!-- Admin Maintenence -->
+  <phrase section="Maintenence" data="MT_TITLE">Maintenance Manager</phrase>
+  <phrase section="Maintenence" data="MT_INFO">Here you can perform site maintenance, such as deleting inctive and banned users. Be careful what you doing, these actions can not be undone</phrase>
+  <phrase section="Maintenence" data="MT_IUSERS">Delete Inactive Users</phrase>
+  <phrase section="Maintenence" data="MT_IUSERS_T">This will delete all users (not administrators), who have not logged in to the site within a certain time period. It will not delete users pending verification proccess. Specify the number of inactive days from above.</phrase>
+  <phrase section="Maintenence" data="MT_BUSERS">Delete Banned Users</phrase>
+  <phrase section="Maintenence" data="MT_BUSERS_T">This will delete all [TOTAL] banned user(s).</phrase>
+  <phrase section="Maintenence" data="MT_CART">Empty Cart Data</phrase>
+  <phrase section="Maintenence" data="MT_CART_T">This empty cart data, used to store temporary user details.</phrase>
+  <phrase section="Maintenence" data="MT_IUBTN">Delete Inactive</phrase>
+  <phrase section="Maintenence" data="MT_BUBTN">Delete Banned</phrase>
+  <phrase section="Maintenence" data="MT_CRBTN">Empty Cart</phrase>
+  <phrase section="Maintenence" data="MT_DELINCT_OK">Total [NUMBER] inactive user(s) deleted successfully.</phrase>
+  <phrase section="Maintenence" data="MT_DELBND_OK">All [NUMBER] banned users deleted successfully.</phrase>
+  <phrase section="Maintenence" data="MT_DELCRT_OK">Total [NUMBER] records deleted successfully.</phrase>
+
+  <!-- Admin Configuration -->
+  <phrase section="Configuration" data="CG_INFO1">Here you can update your system configuration. Please do not make any changes unless you know what you're doing.</phrase>
+  <phrase section="Configuration" data="CG_SITENAME">Website Name</phrase>
+  <phrase section="Configuration" data="CG_SITENAME_T">The name of your web site, which is displayed in various locations across your site</phrase>
+  <phrase section="Configuration" data="CG_CURRENCY">Default Currency</phrase>
+  <phrase section="Configuration" data="CG_CURRENCY_T">Enter your currency such as CAD, USD, EUR</phrase>
+  <phrase section="Configuration" data="CG_CUR_SYMBOL">Currency Symbol</phrase>
+  <phrase section="Configuration" data="CG_CUR_SYMBOL_T">Enter your currency symbol such as $, €, £.</phrase>
+  <phrase section="Configuration" data="CG_CUR_TSEP">Thousands Separator</phrase>
+  <phrase section="Configuration" data="CG_CUR_DSEP">Decimal Separator</phrase>
+  <phrase section="Configuration" data="CG_DIR">Site Directory</phrase>
+  <phrase section="Configuration" data="CG_DIR_T">Directory where CMS pro is installed</phrase>
+  <phrase section="Configuration" data="CG_WEBURL">Website Url</phrase>
+  <phrase section="Configuration" data="CG_WEBURL_T">Insert full URL WITHOUT any trailing slash  (e.g. http://www.yourdomain.com)</phrase>
+  <phrase section="Configuration" data="CG_WEBEMAIL">Website Email</phrase>
+  <phrase section="Configuration" data="CG_WEBEMAIL_T">This is the main email notices will be sent to. It is also used as the from 'email' when emailing other automatic emails</phrase>
+  <phrase section="Configuration" data="CG_INVDATA">Invoice Data</phrase>
+  <phrase section="Configuration" data="CG_INVDATA_T">Add your company address, business info etc...</phrase>
+  <phrase section="Configuration" data="CG_INVNOTE">Invoice Notes</phrase>
+  <phrase section="Configuration" data="CG_INVNOTE_T">Invoice note displayed at footer section.</phrase>
+  <phrase section="Configuration" data="CG_LOGO">Company Logo</phrase>
+  <phrase section="Configuration" data="CG_LOGO_R">Illegal file type. Only jpg and png file types allowed.</phrase>
+  <phrase section="Configuration" data="CG_LOGO_DEL">Delete Logo</phrase>
+  <phrase section="Configuration" data="CG_LOGO_T">If no logo exists, Website Name will be used instead</phrase>
+  <phrase section="Configuration" data="CG_PERPAGE">Items Per Page</phrase>
+  <phrase section="Configuration" data="CG_PERPAGE_T">Default number of items used for pagination</phrase>
+  <phrase section="Configuration" data="CG_SHORTDATE">Short Date</phrase>
+  <phrase section="Configuration" data="CG_LONGDATE">Long Date</phrase>
+  <phrase section="Configuration" data="CG_IMG_W">Thumbnail Width</phrase>
+  <phrase section="Configuration" data="CG_IMG_H">Thumbnail Height</phrase>
+  <phrase section="Configuration" data="CG_IMG_T">Thumbnail Width/Height in px, used for resizing images such as user avatars.</phrase>
+  <phrase section="Configuration" data="CG_REGVERIFY">Registration Verification</phrase>
+  <phrase section="Configuration" data="CG_REGVERIFY_T">If Yes users will need to confirm their email address and go through activation process.</phrase>
+  <phrase section="Configuration" data="CG_AUTOVERIFY">Auto Registration</phrase>
+  <phrase section="Configuration" data="CG_AUTOVERIFY_T">If Yes, once registration process is completed users will be able to login. If No Admin will need to manually activate each account.</phrase>
+  <phrase section="Configuration" data="CG_REGALOWED">Allow Registration</phrase>
+  <phrase section="Configuration" data="CG_REGALOWED_T">Enable/Disable User Registration.</phrase>
+  <phrase section="Configuration" data="CG_NOTIFY_ADMIN">Registration Notification</phrase>
+  <phrase section="Configuration" data="CG_NOTIFY_ADMIN_T">Receive notification upon each new user registration.</phrase>
+  <phrase section="Configuration" data="CG_USERLIMIT">Enable/Disable User registration</phrase>
+  <phrase section="Configuration" data="CG_USERLIMIT_T">Limit number of users that are allowed to register  0 = Unlimited..</phrase>
+  <phrase section="Configuration" data="CG_MAILER">Default Mailer</phrase>
+  <phrase section="Configuration" data="CG_MAILER_T">Use PHP Mailer or SMTP protocol for sending emails</phrase>
+  <phrase section="Configuration" data="CG_SMTP_HOST">SMTP Hostname</phrase>
+  <phrase section="Configuration" data="CG_SMTP_HOST_T">Specify main SMTP server. E.g.:(mail.yourserver.com)</phrase>
+  <phrase section="Configuration" data="CG_SMTP_USER">SMTP Username</phrase>
+  <phrase section="Configuration" data="CG_SMTP_PASS">SMTP Password</phrase>
+  <phrase section="Configuration" data="CG_SMTP_PORT">SMTP Port</phrase>
+  <phrase section="Configuration" data="CG_SMTP_PORT_T">Mail server port ( Can be 25, 26. 465 for GMAIL. 587 for Yahoo ). Ask your host if uncertain.</phrase>
+  <phrase section="Configuration" data="CG_SMTP_SSL">Requires SSL</phrase>
+  <phrase section="Configuration" data="CG_SMTP_SSL_T">Choose Yes if your server requires SSL connection</phrase>
+  <phrase section="Configuration" data="CG_SMAILPATH">Sendmail Path</phrase>
+  <phrase section="Configuration" data="CG_SMAILPATH_T">Ask your hosting company for sandmail path if unsure. Usually: /usr/sbin/sendmail -t -i</phrase>
+  <phrase section="Configuration" data="CG_ETAX">Enable VAT/Tax</phrase>
+  <phrase section="Configuration" data="CG_TAXNAME">Tax/VAT Name</phrase>
+  <phrase section="Configuration" data="CG_TAXVAL">Tax/Vat Amount</phrase>
+  <phrase section="Configuration" data="CG_UPDATE">Update Configuration</phrase>
+  <phrase section="Configuration" data="CG_UPDATED">System Configuration updated successfully!</phrase>
+  
+  <!-- Admin Email Templates -->
+  <phrase section="Email Templates" data="ET_ADD">Add Template</phrase>
+  <phrase section="Email Templates" data="ET_BODY">Template Content</phrase>
+  <phrase section="Email Templates" data="ET_EDIT">Edit Template</phrase>
+  <phrase section="Email Templates" data="ET_INFO1">Here you can update current email template.</phrase>
+  <phrase section="Email Templates" data="ET_INFO2">Below are your email templates. You can modify the content of template(s) to suit your needs.</phrase>
+  <phrase section="Email Templates" data="ET_SUBJECT">Email Subject</phrase>
+  <phrase section="Email Templates" data="ET_SUBTITLE1">Edit Email Template</phrase>
+  <phrase section="Email Templates" data="ET_TITLE2">Manage Email Templates</phrase>
+  <phrase section="Email Templates" data="ET_TPL_DESC">Template Description</phrase>
+  <phrase section="Email Templates" data="ET_TTITLE">Template Name</phrase>
+  <phrase section="Email Templates" data="ET_UPDATE">Update Template</phrase>
+  <phrase section="Email Templates" data="ET_UPDATED">Email Template Updated Successfully</phrase>
+  <phrase section="Email Templates" data="ET_VAR_T">Do Not Replace Variables Between [ ]</phrase>
+
+  <!-- Admin Gateways -->
+  <phrase section="Gateways" data="GW_EDIT">Edit Gateway</phrase>
+  <phrase section="Gateways" data="GW_INFO1">Here you can update current payment gateway.</phrase>
+  <phrase section="Gateways" data="GW_INFO2">Here you can manage your list of available gateways.</phrase>
+  <phrase section="Gateways" data="GW_LIVE">Set Live Mode</phrase>
+  <phrase section="Gateways" data="GW_LIVE_T">When in live mode all transactions will be processed in real time.</phrase>
+  <phrase section="Gateways" data="GW_PUBLISHED_T">Only active gateways will be available for payment methods.</phrase>
+  <phrase section="Gateways" data="GW_SUBTITLE1">Edit Gateway</phrase>
+  <phrase section="Gateways" data="GW_TITLE2">Manage Gateways</phrase>
+  <phrase section="Gateways" data="GW_TTITLE">Gateway Name</phrase>
+  <phrase section="Gateways" data="GW_UPDATE">Update Gateway</phrase>
+  <phrase section="Gateways" data="GW_UPDATED">Gateway Updated Successfully</phrase>
+  <phrase section="Gateways" data="GW_NOGWY">You don't have any gateways please reinstall...</phrase>
+  
+  <!-- Admin Newsletter -->
+  <phrase section="Newsletter" data="NL_FROM">Email From </phrase>
+  <phrase section="Newsletter" data="NL_RCPT">Recipients</phrase>
+  <phrase section="Newsletter" data="NL_INFO1">Here you can send newsletter to all users or newsletter subscribers.</phrase>
+  <phrase section="Newsletter" data="NL_SUBJECT">Email Subject</phrase>
+  <phrase section="Newsletter" data="NL_ATTACH">Attachment</phrase>
+  <phrase section="Newsletter" data="NL_TTITLE">System Newsletter</phrase>
+  <phrase section="Newsletter" data="NL_BODY">Email Content</phrase>
+  <phrase section="Newsletter" data="NL_SEND">Send Email</phrase>
+  <phrase section="Newsletter" data="NL_UALL">All Users</phrase>
+  <phrase section="Newsletter" data="NL_UAREG">Registered Members</phrase>
+  <phrase section="Newsletter" data="NL_UPAID">Paid Membership</phrase>
+  <phrase section="Newsletter" data="NL_UNLS">Newsletter Subscribers</phrase>
+  <phrase section="Newsletter" data="NL_SENT">All Email(s) have been sent successfully!</phrase>
+  <phrase section="Newsletter" data="NL_ALERT">Some of the emails could not be reached!</phrase>
+
+  <!-- Admin Transactions -->
+  <phrase section="Transactions" data="TX_AMOUNT">Amount</phrase>
+  <phrase section="Transactions" data="TX_EXPORT">Export Records</phrase>
+  <phrase section="Transactions" data="TX_INFO1">Here you can view all your payment transactions. You can also search transaction record based on the unique transaction id.</phrase>
+  <phrase section="Transactions" data="TX_TITLE">Viewing Transaction Records</phrase>
+  <phrase section="Transactions" data="TX_NOTRANS">You don't have any transactions yet.</phrase>
+  <phrase section="Transactions" data="TX_PP">Processor</phrase>
+  <phrase section="Transactions" data="TX_DELETED">Transaction [NAME] deleted successfully.</phrase>
+
+  <!-- Admin News -->
+  <phrase section="News Announcements" data="NM_ADD">Add News</phrase>
+  <phrase section="News Announcements" data="NM_EDIT">Edit News</phrase>
+  <phrase section="News Announcements" data="NM_INFO1">Here you can update current news announcement.</phrase>
+  <phrase section="News Announcements" data="NM_INFO2">Here you can manage your news annoucements.</phrase>
+  <phrase section="News Announcements" data="NM_INFO3">Here you can add news annoucements.</phrase>
+  <phrase section="News Announcements" data="NM_CONTENT">News Content</phrase>
+  <phrase section="News Announcements" data="NM_SUBTITLE1">Edit News Announcement</phrase>
+  <phrase section="News Announcements" data="NM_SUBTITLE2">Add News Announcement</phrase>
+  <phrase section="News Announcements" data="NM_TITLE2">Manage News Announcement</phrase>
+  <phrase section="News Announcements" data="NM_TTITLE">News Title</phrase>
+  <phrase section="News Announcements" data="NM_AUTHOR">News Author</phrase>
+  <phrase section="News Announcements" data="NM_UPDATE">Update News</phrase>
+  <phrase section="News Announcements" data="NM_NEWS">News</phrase>
+  <phrase section="News Announcements" data="NM_NONEWS">You don't have any news announcements yet. Please add...</phrase>
+  <phrase section="News Announcements" data="NM_UPDATED">News Announcement Updated Successfully</phrase>
+  <phrase section="News Announcements" data="NM_ADDED">News Announcement Added Successfully</phrase>
+  <phrase section="News Announcements" data="NM_DELETED">News Announcement [NAME] deleted successfully</phrase>
+
+  <!-- Admin Discounts -->
+  <phrase section="Discountss" data="DC_ADD">Add Coupon</phrase>
+  <phrase section="Discountss" data="DC_EDIT">Edit Coupon</phrase>
+  <phrase section="Discountss" data="DC_INFO1">Here you can update current discount/coupon code.</phrase>
+  <phrase section="Discountss" data="DC_INFO2">Here you can manage your discounts/coupons.</phrase>
+  <phrase section="Discountss" data="DC_INFO3">Here you can add discount/coupon.</phrase>
+  <phrase section="Discountss" data="DC_SUBTITLE1">Edit Coupon</phrase>
+  <phrase section="Discountss" data="DC_SUBTITLE2">Add Coupon</phrase>
+  <phrase section="Discountss" data="DC_TITLE2">Coupon Manager</phrase>
+  <phrase section="Discountss" data="DC_TTITLE">Coupon Title</phrase>
+  <phrase section="Discountss" data="DC_CODE">Coupon Code</phrase>
+  <phrase section="Discountss" data="DC_CODE_I">Enter coupon code...</phrase>
+  <phrase section="Discountss" data="DC_CODE_T">This is the code that will be used to apply discount on total cart amount.</phrase>
+  <phrase section="Discountss" data="DC_DISC">Discount Amount</phrase>
+  <phrase section="Discountss" data="DC_DISC_T">This is your discount amount. Enter numeric values only</phrase>
+  <phrase section="Discountss" data="DC_TYPE">Discount Type</phrase>
+  <phrase section="Discountss" data="DC_TYPE_A">Amount Discount</phrase>
+  <phrase section="Discountss" data="DC_TYPE_P">Percentage Discount</phrase>
+  <phrase section="Discountss" data="DC_UPDATE">Update Coupon</phrase>
+  <phrase section="Discountss" data="DC_COUPON">Coupon</phrase>
+  <phrase section="Discountss" data="DC_MEMERR">Select at least one membership</phrase>
+  <phrase section="Discountss" data="DC_MEMBERSHIP_T">Select one or more membership to apply discount code to it. Recussing memberships are excluded.</phrase>
+  <phrase section="Discountss" data="DC_NONDISC">You don't have any discounts/coupons yet. Please add...</phrase>
+  <phrase section="Discountss" data="DC_UPDATED">Coupon Updated Successfully</phrase>
+  <phrase section="Discountss" data="DC_ADDED">Coupon Added Successfully</phrase>
+  <phrase section="Discountss" data="DC_DELETED">Coupon [NAME] deleted successfully</phrase>
+
+  <!-- Admin Help Section -->
+  <phrase section="Help" data="HP_TITLE">Protecting pages based on user login</phrase>
+  <phrase section="Help" data="HP_INFO">Here you can find instructions on how to protect your pages based on user level, login state etc..</phrase>
+  <phrase section="Help" data="HP_SUB">First start by creating a new php page that you want to give access to all of your registered users. Let's call this page for the purpose of this tutorial reg_only_users.php. At the very beginning of the page start by adding following php code.</phrase>
+  <phrase section="Help" data="HP_SUB2">Make sure that init.php point to correct directory. For example, If your reg_only_users.php page is in the same directory as main script, than no changes are necessary, otherwise you need to enter correct path to your init.php page. Depending where you placed reg_only_users.php page, below or above root directory init.php becomes ../init.php if below the root or otherdir/init.php if above the root. Now let's add some protection</phrase>
+  <phrase section="Help" data="HP_SUB3">The two new lines of code do login verification. First line checks if user is not logged in, the second one redirects user to login page login.php. Now you can continue to add the usual html or php code to your page. In this example we protected single page using login verification process. If user is not logged in we redirect to login page, otherwise, we let the user view the page. </phrase>
+  <phrase section="Help" data="HP_TITLE1">Redirecting user on successful login</phrase>
+  <phrase section="Help" data="HP_SUB3">By default when user logs in, it will be redirected to profile page. You can change this behavior by redirecting user to any page of your choice. First start by creating a new php page that you want to redirect user on successful login. Let's call this page for the purpose of this tutorial redirect_page.php. Open up index.php page in root directory and look for:</phrase>
+  <phrase section="Help" data="HP_SUB4">Replace account.php with your new redirect page redirect_page.php Make sure that redirect_page.php point to correct directory. For example, If your redirect_page.php page is in the same directory as main script, than no changes are necessary, otherwise you need to enter correct path to your redirect_page.php page. Depending where you placed redirect_page.php page, below or above root directory redirect_page.php becomes ../redirect_page.php if below the root or otherdirectory/redirect_page.php if above the root. Now you can continue to add the usual html or php code to your page. If you need to protect this page using valid membership, follow instructions from Help Section. In this example on successful login, we redirected user to our custom page. </phrase>
+  
+  <phrase section="Help" data="HP_TITLE2">Protecting pages based on user membership</phrase>
+  <phrase section="Help" data="HP_SUB5">You can also use an automated page builder from here Page Builder. First start by creating a new php page that you want to give access to all of your registered users. Let's call this page for the purpose of this tutorial members_only.php. At the very beginning of the page start by adding following php code:</phrase>
+  <phrase section="Help" data="HP_SUB6">Make sure that init.php point to correct directory. For example, If your members_only.php page is in the same directory as main script, than no changes are necessary, otherwise you need to enter correct path to your init.php page. Depending where you placed members_only.php page, below or above root directory init.php becomes ../init.php if below the root or otherdir/init.php if above the root. Now let's add some protection:</phrase>
+  <phrase section="Help" data="HP_SUB7">The two new lines of code do membership verification. First line checks if user belongs to memberships 3 or 4, the second one redirects user to login page login.php. Note you can find out membership id from Manage Memberships very first column on the left.</phrase>
+  <phrase section="Help" data="HP_SUB8">Now you can continue to add the usual html or php code to your page.
+In this example we protected single page using membership verification process. If user does not have valid membership in this case 3 or 4 we redirect to login page, otherwise, we let the user view the page</phrase>
+  <phrase section="Help" data="HP_SUB9">Another example would be to show customized error message if user does not have valid membership.</phrase>
+  <phrase section="Help" data="HP_SUB10">We only used two memberships in this case 3 and 4. You can add multiple memberships separated by coma such as $user->checkMembership("2,3,4,5"). </phrase>
+  <phrase section="Help" data="HP_SUB11">Or just single user membership $user->checkMembership("3")</phrase>
+  <phrase section="Help" data="HP_TITLE3">Setting up cron jobs</phrase>
+  <phrase section="Help" data="HP_SUB12">Membership Manager Pro is equipped with cron job utility. By default there are two files inside /cron/ directory cron_job0days.php and cron_job7days.php
+cron_job0days.php will automatically send emails to all users whose membership had expired at the present day, while cron_job7days.php will send emails to all users whose membership is about to expire within 7 days.</phrase>
+  <phrase section="Help" data="HP_TITLE4">Page Builder</phrase>
+  <phrase section="Help" data="HP_INFO2">Here you can build your own custom protected page based on a user membership</phrase>
+  <phrase section="Help" data="HP_SUB13">Your new page will be created inside uploads/ directory. System assumes that you will be placing this page within the root of your initial install, and therefore all the paths and the necessary files will be included inside the page structure. Otherwize you will need to manualy adjust paths inside this page if you are placing it outside your MMP directory.</phrase>
+  <phrase section="Help" data="HP_PNAME">Page Name</phrase>
+  <phrase section="Help" data="HP_PNAME_T">This is the actual file name of the page. You can name it anything you want, such as platinum_members</phrase>
+  <phrase section="Help" data="HP_PADDHF">Include Header/Footer</phrase>
+  <phrase section="Help" data="HP_PADDHF_T">If yes default header and footer will be added to this page. You can always manually modify this page content later.</phrase>
+  <phrase section="Help" data="HP_PBUILD">Build Page</phrase>
+  <phrase section="Help" data="HP_PBUILD_OK">Page [NAME] created successfully</phrase>
+  <phrase section="Help" data="HP_PBUILD_ER">There was an error creating [NAME] Make sure your uploads directory is writable!</phrase>
+  <phrase section="Help" data="HP_TITLE5">Login Form Integration</phrase>
+  <phrase section="Help" data="HP_SUB14">Use one of your existing pages just make sure that file extension is php. Let's call this page for the purpose of this tutorial login.php. At the very beginning of the page start by adding following php code.</phrase>
+  <phrase section="Help" data="HP_SUB15">Make sure that init.php point to correct directory. For example, If your login.php page is in the same directory as main script, than no changes are necessary, otherwise you need to enter correct path to your init.php page. Depending where you placed login.php page, below or above root directory init.php becomes ../init.php if below the root or otherdir/init.php if above the root.</phrase>
+  <phrase section="Help" data="HP_SUB16">in the above we have to redirects depending on user login state. The first one redirect_to() checks if user is already logged in. If it is, redirect to default account.php page. Second redirect_to() will redirect user to account.php page if login is successful. Just make sure that SITEURL . "/account.php" points to default account.php page. You can replace SITEURL with actual url like "http://yourdomain.com/mmp_directory/account.php"</phrase>
+  <phrase section="Help" data="HP_SUB17">The last piece is the actual login form. Nothing fancy, just username/password and submit button. You can modify login form in any way you want just make sure that input field/button names are exactly the same.</phrase>
+  
+  <!-- Admin Membeships -->
+  <phrase section="Membeships" data="MM_ADD">Add Membeship</phrase>
+  <phrase section="Membeships" data="MM_DESC">Membeship Description</phrase>
+  <phrase section="Membeships" data="MM_EDIT">Edit Membeship</phrase>
+  <phrase section="Membeships" data="MM_ERR">Membership period must be numeric value!</phrase>
+  <phrase section="Membeships" data="MM_INFO1">Here you can update current news membeship.</phrase>
+  <phrase section="Membeships" data="MM_INFO2">Here you can manage your membeship.</phrase>
+  <phrase section="Membeships" data="MM_INFO3">Here you can add new membeship.</phrase>
+  <phrase section="Membeships" data="MM_SUBTITLE1">Edit Membeship</phrase>
+  <phrase section="Membeships" data="MM_SUBTITLE2">Add Membeship</phrase>
+  <phrase section="Membeships" data="MM_TITLE2">Manage Membeship Packages</phrase>
+  <phrase section="Membeships" data="MM_TTITLE">Membeship Title</phrase>
+  <phrase section="Membeships" data="MM_UPDATE">Update Membeship</phrase>
+  <phrase section="Membeships" data="MM_MEM">Membeship</phrase>
+  <phrase section="Membeships" data="MM_PERIOD">Membership Period</phrase>
+  <phrase section="Membeships" data="MM_PERIOD_T">Period before membership expires. Valid values are: Day(s) Allowable range is 1 to 90 Week(s) Allowable range is 1 to 52 Month(s) Allowable range is 1 to 24 Year(s) Allowable range is 1 to 5"</phrase>
+  <phrase section="Membeships" data="MM_NOMEM">You don't have any memberships yet. Please add...</phrase>
+  <phrase section="Membeships" data="MM_PACK">Membeship Packages</phrase>
+  <phrase section="Membeships" data="MM_PRIVATE">Private Membeship</phrase>
+  <phrase section="Membeships" data="MM_PRIVATE_T">Private memberships are not available to front end users.</phrase>
+  <phrase section="Membeships" data="MM_PUBLISHED_T">Only active memberships will be available for purchase.</phrase>
+  <phrase section="Membeships" data="MM_RECURRING">Recurring Payment</phrase>
+  <phrase section="Membeships" data="MM_RECURRING_T">If Yes system will create recurring subscription.</phrase>
+  <phrase section="Membeships" data="MM_TRIAL">Trial Membership</phrase>
+  <phrase section="Membeships" data="MM_TRIAL_T">Trial Membership will be available for one time use only. You can only have one trial membership in total.</phrase>
+  <phrase section="Membeships" data="MM_UPDATED">Membeship Updated Successfully</phrase>
+  <phrase section="Membeships" data="MM_ADDED">Membeship Added Successfully</phrase>
+  <phrase section="Membeships" data="MM_DELETED">Membeship [NAME] deleted successfully</phrase>
+  
+  <!-- Admin Custom Fields -->
+  <phrase section="Custom Fields" data="CF_ADD">Add Field</phrase>
+  <phrase section="Custom Fields" data="CF_ADDED">Custom Field Added Successfully</phrase>
+  <phrase section="Custom Fields" data="CF_DELETED">Custom Field [NAME] deleted successfully</phrase>
+  <phrase section="Custom Fields" data="CF_EDIT">Edit Field</phrase>
+  <phrase section="Custom Fields" data="CF_FIELD">Field</phrase>
+  <phrase section="Custom Fields" data="CF_INFO1">Here you can update current custom field.</phrase>
+  <phrase section="Custom Fields" data="CF_INFO2">Here you can manage your custom fields. To reorder fields click and drag item reorder handle, position it where you want it. Position will be updated automatically</phrase>
+  <phrase section="Custom Fields" data="CF_INFO3">Here you can add custom field.</phrase>
+  <phrase section="Custom Fields" data="CF_NOFIELDS">You don't have any custom fields yet. Please add...</phrase>
+  <phrase section="Custom Fields" data="CF_POSITION">Position</phrase>
+  <phrase section="Custom Fields" data="CF_REQUIRED">Required Field</phrase>
+  <phrase section="Custom Fields" data="CF_SECP">User Profile</phrase>
+  <phrase section="Custom Fields" data="CF_SECR">User Registration</phrase>
+  <phrase section="Custom Fields" data="CF_SECTION">Field Section</phrase>
+  <phrase section="Custom Fields" data="CF_SUBTITLE1">Edit Custom Field</phrase>
+  <phrase section="Custom Fields" data="CF_SUBTITLE2">Add Custom Field</phrase>
+  <phrase section="Custom Fields" data="CF_TIP">Tooltip</phrase>
+  <phrase section="Custom Fields" data="CF_TITLE2">Manage Custom Fields</phrase>
+  <phrase section="Custom Fields" data="CF_TTITLE">Field Name</phrase>
+  <phrase section="Custom Fields" data="CF_UPDATE">Update Field</phrase>
+  <phrase section="Custom Fields" data="CF_UPDATED">Custom Field Updated Successfully</phrase>
+  
+  <!-- Admin Main -->
+  <phrase section="Dashboard" data="AD_TITLE">Welcome to admin panel</phrase>
+  <phrase section="Dashboard" data="AD_INFO">Here you can view your latest user statistics, such as lates transactions, number of registered users etc.</phrase>
+  <phrase section="Dashboard" data="AD_REVENUE">Site Revenue</phrase>
+  <phrase section="Dashboard" data="AD_TODAY">Today</phrase>
+  <phrase section="Dashboard" data="AD_MY">Month/Year</phrase>
+  <phrase section="Dashboard" data="AD_TYEAR">Total Year</phrase>
+  <phrase section="Dashboard" data="AD_TRX">Transactions</phrase>
+  <phrase section="Dashboard" data="AD_TINCOME">Total Income</phrase>
+  <phrase section="Dashboard" data="AD_RUSER">Registered Users</phrase>
+  <phrase section="Dashboard" data="AD_AUSER">Active Users</phrase>
+  <phrase section="Dashboard" data="AD_PUSER">Pending Users</phrase>
+  <phrase section="Dashboard" data="AD_AMEM">Active Memberships</phrase>
+  
+  <!-- Admin Users -->
+  <phrase section="User Management" data="UR_ACTIVE">User Active</phrase>
+  <phrase section="User Management" data="UR_ADD">Add New User</phrase>
+  <phrase section="User Management" data="UR_ADDED">User added successfully!</phrase>
+  <phrase section="User Management" data="UR_ADDRESS">Mailing Address</phrase>
+  <phrase section="User Management" data="UR_ADMIN">Admin</phrase>
+  <phrase section="User Management" data="UR_ADMIN_E">You cannot delete main Super Admin account!</phrase>
+  <phrase section="User Management" data="UR_AVATAR">User Avatar</phrase>
+  <phrase section="User Management" data="UR_BIO">User Bio</phrase>
+  <phrase section="User Management" data="UR_BIO_T">Short user biography/about description.</phrase>
+  <phrase section="User Management" data="UR_CITY">City</phrase>
+  <phrase section="User Management" data="UR_COUNTRY">Country</phrase>
+  <phrase section="User Management" data="UR_DATE_REGGED">Date Registered</phrase>
+  <phrase section="User Management" data="UR_DELETED">User [NAME] deleted successfully!</phrase>
+  <phrase section="User Management" data="UR_EDIT">Edit User</phrase>
+  <phrase section="User Management" data="UR_EMAIL">Email Address</phrase>
+  <phrase section="User Management" data="UR_EMAIL_R">Please Enter Valid Email Address</phrase>
+  <phrase section="User Management" data="UR_EMAIL_R1">Entered Email Address Is Already In Use.</phrase>
+  <phrase section="User Management" data="UR_EMAIL_R2">Entered Email Address Is Not Valid.</phrase>
+  <phrase section="User Management" data="UR_EMAIL_R3">Entered Email Address Does Not Exists.</phrase>
+  <phrase section="User Management" data="UR_FAX">Fax</phrase>
+  <phrase section="User Management" data="UR_FIND_UNAME">Search Username</phrase>
+  <phrase section="User Management" data="UR_FNAME">First Name</phrase>
+  <phrase section="User Management" data="UR_INFO1">Here you can update your user's info.</phrase>
+  <phrase section="User Management" data="UR_INFO2">Here you can add new user.</phrase>
+  <phrase section="User Management" data="UR_INFO3">Here you can manage your users. You can email each user by clicking on username. You can also activate each usser account by clicking on [ICON] icon.</phrase>
+  <phrase section="User Management" data="UR_INFO4">Here you can view account statistics such as customer registrations and demographics.</phrase>
+  <phrase section="User Management" data="UR_IS_NEWSLETTER">Newsletter Subscriber</phrase>
+  <phrase section="User Management" data="UR_LASTLOGIN">Last Login</phrase>
+  <phrase section="User Management" data="UR_LASTLOGIN_IP">Last Login IP</phrase>
+  <phrase section="User Management" data="UR_LEVEL">User Level</phrase>
+  <phrase section="User Management" data="UR_LNAME">Last Name</phrase>
+  <phrase section="User Management" data="UR_MAP_OVERLAY">Customers Map Overlay</phrase>
+  <phrase section="User Management" data="UR_NAME">Name</phrase>
+  <phrase section="User Management" data="UR_NOMEMBERSHIP">No Membership Required</phrase>
+  <phrase section="User Management" data="UR_NOMEMBERSHIP_T">You can manually assign membership to current user, without the need of payment.</phrase>
+  <phrase section="User Management" data="UR_NOTES">User Notes</phrase>
+  <phrase section="User Management" data="UR_NOTES_T">User Notes field is used for internal purposes only. You can store any user related information here.</phrase>
+  <phrase section="User Management" data="UR_NOTIFY">Notify User</phrase>
+  <phrase section="User Management" data="UR_NOTIFY_T">Send welcome email to this user. Password will be reset</phrase>
+  <phrase section="User Management" data="UR_NOUSER">No users found under this creteria...</phrase>
+  <phrase section="User Management" data="UR_PASS_T">Leave it empty unless changing it.</phrase>
+  <phrase section="User Management" data="UR_PASSWORD_R">Please Enter Valid Password.</phrase>
+  <phrase section="User Management" data="UR_PASSWORD_R1">Password is too short (less than 6 characters long)</phrase>
+  <phrase section="User Management" data="UR_PASSWORD_R2">Password must contain at least one lower, one upper case letter and one digit.</phrase>
+  <phrase section="User Management" data="UR_PASSWORD_R3">Your password did not match the confirmed password!.</phrase>
+  <phrase section="User Management" data="UR_SADMIN">Super Admin</phrase>
+  <phrase section="User Management" data="UR_STATE">State</phrase>
+  <phrase section="User Management" data="UR_STATUS">User Status</phrase>
+  <phrase section="User Management" data="UR_STATUS_T">Four different User Statuses are available: Active User - will be able to login and perform actions allowed to Registered Users. Inactive User - will not be able to login, unless Administrator approves user account. Banned User - upon login will receive an error message letting user know, that their account is currently banned. Pending User - will not be able to login until email verification process is completed.</phrase>
+  <phrase section="User Management" data="UR_SUBTITLE1">Edit Current User</phrase>
+  <phrase section="User Management" data="UR_SUBTITLE2">Adding New User</phrase>
+  <phrase section="User Management" data="UR_SUBTITLE3">Viewing Users</phrase>
+  <phrase section="User Management" data="UR_TITLE1">Edit User</phrase>
+  <phrase section="User Management" data="UR_TITLE2">Add User</phrase>
+  <phrase section="User Management" data="UR_TITLE3">Manage Users</phrase>
+  <phrase section="User Management" data="UR_TITLE4">Account Statistics</phrase>
+  <phrase section="User Management" data="UR_UPDATE">Update User</phrase>
+  <phrase section="User Management" data="UR_UPDATED">User updated successfully!</phrase>
+  <phrase section="User Management" data="UR_USERNAME_R">Please Enter Valid Username</phrase>
+  <phrase section="User Management" data="UR_USERNAME_R0">We are sorry, selected username does not exist in our database</phrase>
+  <phrase section="User Management" data="UR_USERNAME_R1">Username Is Too Short (less Than 4 Characters Long).</phrase>
+  <phrase section="User Management" data="UR_USERNAME_R2">Invalid Characters Found In Username.</phrase>
+  <phrase section="User Management" data="UR_USERNAME_R3">Sorry, This Username Is Already Taken</phrase>
+  <phrase section="User Management" data="UR_ZIP">Zip Code</phrase>
+  <phrase section="User Management" data="UR_ACCOK">User have been successfully activated and email has been sent.</phrase>
+  <phrase section="User Management" data="UR_ACCERR">There was an error while sending email.</phrase>
+
+  <!-- Countries -->
+  <phrase section="Countries" data="CNT_TITLE2">Country Management</phrase>
+  <phrase section="Countries" data="CNT_INFO2">Here you can view and manage country list. Click on VAT/Tax values to edit in place.</phrase>
+  <phrase section="Countries" data="CNT_TITLE">Country Name</phrase>
+  <phrase section="Countries" data="CNT_ABBR">Abbreviation</phrase>
+  <phrase section="Countries" data="CNT_SELECT">Select Country</phrase>
+  <phrase section="Countries" data="CNT_DELOK">Country [NAME] deleted successfully.</phrase>
+  <phrase section="Countries" data="CNT_EDIT">Edit Country</phrase>
+  <phrase section="Countries" data="CNT_NOCOUNTRY">You don't have any countries yet...</phrase>
+  <phrase section="Countries" data="CNT_INFO1">Here you can update currently selected country properties.</phrase>
+  <phrase section="Countries" data="CNT_UPDATE">Update Country</phrase>
+  <phrase section="Countries" data="CNT_UPDATED">Country updated successfully.</phrase>
+
+  <!-- Contact Form -->			
+  <phrase  section="Contact Form" data="CF_CONTACT">Contact</phrase>
+  <phrase  section="Contact Form" data="CF_NAME">Your Name</phrase>			
+  <phrase  section="Contact Form" data="CF_INFO">Feel free to send us an email with your enquiries, questions, or any feedback. We will be very happy to answer your question. Use contact form below to send us quick email.</phrase>			
+  <phrase  section="Contact Form" data="CF_TOTAL">Captcha Code</phrase>			
+  <phrase  section="Contact Form" data="CF_TOTAL_ERR">Entered captcha code is incorrect</phrase>			
+  <phrase  section="Contact Form" data="CF_EMAIL">Email Address</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT">Subject</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_1">--- What's on your mind? ---</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_2">Compliment</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_3">Criticism</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_4">Suggestion</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_5">Advertise</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_6">Support</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT_7">Other</phrase>			
+  <phrase  section="Contact Form" data="CF_EMAIL_ERR">Entered email address is invalid!</phrase>			
+  <phrase  section="Contact Form" data="CF_MSG">Your Message</phrase>			
+  <phrase  section="Contact Form" data="CF_MSG_R">Please enter your message</phrase>			
+  <phrase  section="Contact Form" data="CF_SEND">Submit Inquiry</phrase>			
+  <phrase  section="Contact Form" data="CF_SUBJECT1">Feedback email from: </phrase>			
+  <phrase  section="Contact Form" data="CF_ERROR">Email could not be sent due to the following error(s):</phrase>			
+  <phrase  section="Contact Form" data="CF_OK">Thank you! Your message has been sent successfully</phrase>	
+  
+  <!-- Language -->
+  <phrase section="Language" data="LMG_TITLE">Language Manager</phrase>
+  <phrase section="Language" data="LMG_INFO">Here you can update your language phrases. Note: Do not replace variables between [ ]. Click on Value name to edit.</phrase>
+  <phrase section="Language" data="LMG_RESET">Reset Language Group Filter</phrase>
+  <phrase section="Language" data="LMG_KEY">Key</phrase>
+  <phrase section="Language" data="LMG_VALUE">Value</phrase> 
+  
+  <!-- Pagination -->
+  <phrase section="Pagination" data="PAG_PREV">Prev</phrase>
+  <phrase section="Pagination" data="PAG_NEXT">Next</phrase>
+  <phrase section="Pagination" data="PAG_GOTO">Go to page</phrase>
+  <phrase section="Pagination" data="PAG_OF">of</phrase>
+  <phrase section="Pagination" data="PAG_TOTAL">Total</phrase>
+  <phrase section="Pagination" data="PAG_CURPAGE">Current Page</phrase>
+  <phrase section="Pagination" data="PAG_IPP">Items per page</phrase>
+</language>

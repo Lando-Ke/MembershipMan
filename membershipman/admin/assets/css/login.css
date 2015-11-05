@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'maven_proregular';
+  src: url('../fonts/mavenpro-regular.eot');
+  src: url('../fonts/mavenpro-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-regular.woff') format('woff'), url('../fonts/mavenpro-regular.ttf') format('truetype'), url('../fonts/mavenpro-regular.svg#maven_proregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'maven_problack';
+  src: url('../fonts/mavenpro-black.eot');
+  src: url('../fonts/mavenpro-black.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-black.woff') format('woff'), url('../fonts/mavenpro-black.ttf') format('truetype'), url('../fonts/mavenpro-black.svg#maven_problack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+html,
+body {
+  font-size: 14px;
+  height: 100%;
+}
+body {
+  font-family: "maven_proregular", sans-serif;
+  display: table;
+  margin: 0 auto;
+  padding: 0px;
+  color: #404040;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  background-color: #0CA3D2;
+}
+#wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 500px;
+}
+#content {
+  position: relative;
+  padding: 2em;
+  padding-top: 0;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#content:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+#content h1 {
+  margin: -28px -28px 21px;
+  font-size: 1.4em;
+  font-family: 'maven_problack';
+  font-weight: 600;
+  padding: 1em 0;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+  text-transform: uppercase;
+}
+#content h1 span {
+  display: block;
+  font-size: 14px;
+  text-transform: none;
+  font-family: 'maven_proregular';
+}
+#content .row {
+  margin-bottom: 1em;
+}
+#content input[type=text],
+#content input[type=password] {
+  width: 410px;
+  font-family: 'maven_proregular';
+  font-size: 14px;
+}
+input[type=text],
+input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 40px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus,
+input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+button[name=submit] {
+  padding: 0 1.2em;
+  height: 40px;
+  color: #527881;
+  font-family: 'maven_problack';
+  font-size: 1em;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 5px;
+  float: right;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button[name=submit]:hover {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+:-moz-placeholder {
+ color: #c9c9c9 !important;
+ font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+ color: #ccc;
+ font-size: 13px;
+}
+#footer span {
+  float: left;
+  padding-top: 1em;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1
+}
+#message-box {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 2em;
+}
+.wojo.error.message,
+.wojo.success.message {
+  position: relative;
+  min-height: 18px;
+  margin: 1em 0em;
+  height: auto;
+  padding: 1em;
+  line-height: 1.33;
+  -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0.325em 0.325em 0.325em 0.325em;
+  -webkit-box-shadow: 0em -0.2rem 0em rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0em -0.2rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0em -0.2rem 0em rgba(0, 0, 0, 0.1) inset;
+  background-color: #BD362F;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.wojo.success.message {
+  background-color: #51A351;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.wojo.message .header {
+  margin: 0em;
+  font-size: 1.2em;
+}
+.wojo.message ul.list {
+  opacity: 0.85;
+  list-style-position: inside;
+  margin: 0.2em 0em;
+  padding: 0em;
+}
+.wojo.message ul.list li {
+  position: relative;
+  list-style-type: none;
+  margin: 0em 0em 0.3em 1em;
+  padding: 0em;
+}

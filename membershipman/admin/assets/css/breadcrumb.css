@@ -1,0 +1,55 @@
+/* == Breadcrumb == */
+.wojo.breadcrumb {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1em;
+  margin-bottom:0;
+  text-transform: uppercase;
+  font-size:.85em;
+  font-family: 'maven_probold';
+}
+.wojo.breadcrumb:first-child {
+  white-space: nowrap;
+}
+.wojo.breadcrumb:last-child {
+}
+/* == Content == */
+.wojo.breadcrumb .divider {
+  display: inline-block;
+  opacity: 0.5;
+  font-size: 0.667em;
+  color: #4D76A4;
+}
+.wojo.breadcrumb .divider:before {
+ content: "//";
+}
+.wojo.breadcrumb a.section {
+  cursor: pointer;
+  padding: .45em 1em;
+}
+.wojo.breadcrumb a.section:hover {
+}
+.wojo.breadcrumb .section {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding: .45em 1em;
+}
+.wojo.breadcrumb.segment {
+  display: inline-block;
+  padding: .5em 1em;
+}
+.wojo.breadcrumb .active.section {
+  font-family: 'maven_problack';
+ 
+}
+/* == Variations == */
+.wojo.small.breadcrumb {
+  font-size: .75em;
+}
+.wojo.large.breadcrumb {
+  font-size: 1.1em;
+}
+.wojo.huge.breadcrumb {
+  font-size: 1.3em;
+}

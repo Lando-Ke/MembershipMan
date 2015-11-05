@@ -1,0 +1,136 @@
+/* == Images == */
+.wojo.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+img.wojo.image {
+  background: none;
+}
+.wojo.image .caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: .8em;
+  font-family: 'Roboto Condensed';
+  text-align: center;
+  box-shadow: inset 0 1px 0 0 #fff;
+  position: relative;
+}
+.wojo.image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+  border: 0
+}
+/* == State == */
+.wojo.disabled.image {
+  cursor: default;
+  opacity: 0.3;
+}
+/* == Variations == */
+.wojo.basic.image {
+  box-shadow: none;
+}
+.wojo.rounded.images .image,
+.wojo.rounded.images img,
+.wojo.rounded.image img,
+.wojo.rounded.image {
+  border-radius: 0.3125em;
+}
+.wojo.circular.images .image,
+.wojo.circular.images img,
+.wojo.circular.image img,
+.wojo.circular.image {
+  border-radius: 500rem;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+}
+.wojo.fluid.images,
+.wojo.fluid.image,
+.wojo.fluid.images img,
+.wojo.fluid.image img {
+  display: block;
+  width: 100%;
+}
+.wojo.avatar.images .image,
+.wojo.avatar.images img,
+.wojo.avatar.image img,
+.wojo.avatar.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 500rem;
+}
+.wojo.floated.image,
+.wojo.floated.images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.wojo.right.floated.images,
+.wojo.right.floated.image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.wojo.inverted.image {
+  background-color:transparent;
+  box-shadow: 0px 0px 0 1px #fff;
+}
+/* == Size == */
+.wojo.tiny.images .image,
+.wojo.tiny.images img,
+.wojo.tiny.image {
+  width: 20px;
+  font-size: 0.7rem;
+}
+.wojo.mini.images .image,
+.wojo.mini.images img,
+.wojo.mini.image {
+  width: 45px;
+  font-size: 0.8rem;
+}
+.wojo.small.images .image,
+.wojo.small.images img,
+.wojo.small.image {
+  width: 60px;
+  font-size: 0.9rem;
+}
+.wojo.normal.images .image,
+.wojo.normal.images img,
+.wojo.normal.image {
+  width: 150px;
+  font-size: 0.9rem;
+}
+.wojo.medium.images .image,
+.wojo.medium.images img,
+.wojo.medium.image {
+  width: 300px;
+  font-size: 1rem;
+}
+.wojo.large.images .image,
+.wojo.large.images img,
+.wojo.large.image {
+  width: 450px;
+  font-size: 1.1rem;
+}
+.wojo.huge.images .image,
+.wojo.huge.images img,
+.wojo.huge.image {
+  width: 600px;
+  font-size: 1.2rem;
+}
+/* == Groups == */
+.wojo.images {
+  font-size: 0em;
+  margin: 0em -0.25rem 0rem;
+}
+.wojo.images .image,
+.wojo.images img {
+  display: inline-block;
+  margin: 0em 0.25em 0.5em;
+}

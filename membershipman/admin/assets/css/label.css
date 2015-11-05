@@ -1,0 +1,681 @@
+/* == Label == */
+.wojo.label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  background-color: #E1E4E9;
+  border-color: #E1E4E9;
+  padding: .325em .5em;
+  color: inherit;
+  font-family: 'maven_problack';
+  font-size: .95rem;
+  line-height: .95;
+  border-radius: .214em;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+
+.wojo.label:first-child {
+  margin-left: 0
+}
+.wojo.label:last-child {
+  margin-right: 0
+}
+a.wojo.label {
+  cursor: pointer
+}
+.wojo.label a {
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.8;
+  -webkit-transition: .2s opacity ease;
+  transition: .2s opacity ease
+}
+.wojo.label a:hover {
+  opacity: 1
+}
+.wojo.label .detail {
+  display: inline-block;
+  margin-left: .5em;
+  font-weight: 700;
+  opacity: 0.8
+}
+.wojo.label .icon {
+  width: auto
+}
+/* == Removable label == */
+.wojo.label .delete.icon {
+  cursor: pointer;
+  margin: 0 0 0 .5em;
+  opacity: 0.7;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wojo.label .delete.icon:hover {
+  opacity: 0.99
+}
+/* == Coupling == */
+.wojo.segment > .attached.label:first-child + * {
+  margin-top: 2.5em
+}
+.wojo.segment > .bottom.attached.label:first-child ~ :last-child {
+  margin-top: 0;
+  margin-bottom: 2.5em
+}
+/* == Types == */
+.wojo.image.label {
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  line-height: 1.5em;
+  vertical-align: baseline;
+  text-transform: none;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset
+}
+.wojo.image.label img {
+  display: inline-block;
+  height: 2.25em;
+  margin: -.4em .8em -.4em -.8em;
+  vertical-align: top;
+  border-radius: .325em 0 0 .325em
+}
+/* == States == */
+.wojo.label.disabled {
+  opacity: 0.5
+}
+a.wojo.labels .label:hover,
+a.wojo.label:hover {
+  background-color: #E0E0E0;
+  border-color: #E0E0E0;
+  color: rgba(0,0,0,0.7)
+}
+.wojo.labels a.label:hover:before,
+a.wojo.label:hover:before {
+  background-color: #E0E0E0;
+  color: rgba(0,0,0,0.7)
+}
+/* == Variations == */
+.wojo.tag.labels .label,
+.wojo.tag.label {
+  margin-left: 1em;
+  position: relative;
+  padding: .33em 1.3em .33em 1.4em;
+  border-radius: 0 3px 3px 0
+}
+.wojo.tag.labels .label:before,
+.wojo.tag.label:before {
+  position: absolute;
+  top: .3em;
+  left: .3em;
+  content: '';
+  margin-left: -1em;
+  background-image: none;
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wojo.tag.labels .label:after,
+.wojo.tag.label:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: -.25em;
+  margin-top: -.3em;
+  background-color: #FFF;
+  width: .55em;
+  height: .55em;
+  -webkit-box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.3);
+  border-radius: 100px 100px 100px 100px
+}
+/* == Ribbon == */
+.wojo.ribbon.label {
+  position: relative;
+  margin: 0 .2em;
+  left: -2rem;
+  padding-left: 2rem;
+  border-radius: 0 4px 4px 0;
+  border-color: rgba(0,0,0,0.15)
+}
+.wojo.ribbon.label:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  border-top: 0 solid transparent;
+  border-right-width: 1em;
+  border-right-color: inherit;
+  border-right-style: solid;
+  border-bottom: 1em solid transparent;
+  border-left: 0 solid transparent;
+  width: 0;
+  height: 0
+}
+/* == Attached == */
+.wojo.top.attached.label,
+.wojo.attached.label {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: .75em 1em;
+  border-radius: .325em .325em 0 0
+}
+.wojo.bottom.attached.label {
+  top: auto;
+  bottom: 0;
+  border-radius: 0 0 .325em .325em
+}
+.wojo.top.left.attached.label {
+  width: auto;
+  margin-top: 0;
+  border-radius: .325em 0 .325em 0
+}
+.wojo.top.right.attached.label {
+  width: auto;
+  left: auto;
+  right: 0;
+  border-radius: 0 .325em 0 .325em
+}
+.wojo.bottom.left.attached.label {
+  width: auto;
+  top: auto;
+  bottom: 0;
+  border-radius: 0 .325em 0 .325em
+}
+.wojo.bottom.right.attached.label {
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  width: auto;
+  border-radius: .325em 0 .325em 0
+}
+/* == Corner == */
+.wojo.corner.label {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0;
+  width: 3em;
+  height: 3em;
+  padding: 0;
+  text-align: center;
+  box-shadow:none;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease
+}
+.wojo.corner.label:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 0 solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 3em solid transparent;
+  border-left: 0 solid transparent;
+  border-right-color: inherit;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease
+}
+.wojo.corner.label .icon {
+  font-size: .875em;
+  margin: .5em 0 0 1.25em
+}
+.wojo.corner.label .text {
+  display: inline-block;
+  font-weight: 700;
+  margin: .5em 0 0 1em;
+  width: 2.5em;
+  font-size: .875em;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+/* == Coupling == */
+.wojo.rounded.image > .wojo.corner.label,
+.wojo.input > .wojo.corner.label,
+.wojo.segment > .wojo.corner.label {
+  overflow: hidden
+}
+.wojo.segment > .wojo.corner.label {
+  top: 0;
+  right: 0
+}
+.wojo.segment > .wojo.left.corner.label {
+  right: auto;
+  left: -1px
+}
+.wojo.input > .wojo.corner.label {
+  top: 3px;
+  right: 3px
+}
+.wojo.input > .wojo.right.corner.label {
+  right: auto;
+  left: 1px
+}
+.wojo.left.corner.label,
+.wojo.left.corner.label:after {
+  right: auto;
+  left: 0
+}
+.wojo.left.corner.label:after {
+  border-top: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-top-color: inherit
+}
+.wojo.left.corner.label .icon {
+  margin: .5em 0 0 -1em
+}
+.wojo.left.corner.label .text {
+  margin: .5em 0 0 -1em;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+.wojo.corner.label:hover {
+  background-color: transparent
+}
+/* == Fluid == */
+.wojo.label.fluid,
+.wojo.fluid.labels > .label {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+/* == Colors == */
+.wojo.black.labels .label,
+.wojo.black.label,
+.wojo.inverted.labels .label,
+.wojo.inverted.label,
+.wojo.ribbon .ribbon.inverted,
+.wojo.ribbon .ribbon.black {
+  background-color: #A4A9AE;
+  border-color: #A4A9AE;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .black.label:before,
+.wojo.black.labels .label:before,
+.wojo.black.label:before {
+  background-color: #A4A9AE
+}
+a.wojo.black.labels .label:hover,
+a.wojo.black.label:hover {
+  background-color: #959ca3;
+  border-color: #959ca3;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.black.label:hover:before,
+.wojo.black.labels a.label:hover:before,
+a.wojo.black.label:hover:before {
+  background-color: #959ca3
+}
+.wojo.black.corner.label,
+.wojo.black.corner.label:hover {
+  background-color: transparent
+}
+.wojo.black.ribbon.label {
+  border-color: #959ca3
+}
+.wojo.success.labels .label,
+.wojo.success.label,
+.wojo.ribbon .ribbon.success {
+  background-color: #A0D468;
+  border-color: #A0D468;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .success.label:before,
+.wojo.success.labels .label:before,
+.wojo.success.label:before {
+  background-color: #A0D468
+}
+a.wojo.success.labels .label:hover,
+a.wojo.success.label:hover {
+  background-color: #93ce55;
+  border-color: #93ce55;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.success.label:hover:before,
+.wojo.success.labels a.label:hover:before,
+a.wojo.success.label:hover:before {
+  background-color: #93ce55
+}
+.wojo.success.corner.label,
+.wojo.success.corner.label:hover {
+  background-color: transparent
+}
+.wojo.success.ribbon.label {
+  border-color: #93ce55
+}
+.wojo.negative.labels .label,
+.wojo.negative.label,
+.wojo.ribbon .ribbon.negative {
+  background-color: #ED5565;
+  border-color: #ED5565;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .negative.label:before,
+.wojo.negative.labels .label:before,
+.wojo.negative.label:before {
+  background-color: #ED5565
+}
+.wojo.negative.corner.label,
+.wojo.negative.corner.label:hover {
+  background-color: transparent
+}
+a.wojo.negative.labels .label:hover,
+a.wojo.negative.label:hover {
+  background-color: #e93f51;
+  border-color: #e93f51;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.negative.label:hover:before,
+.wojo.negative.labels a.label:hover:before,
+a.wojo.negative.label:hover:before {
+  background-color: #e93f51
+}
+.wojo.negative.ribbon.label {
+  border-color: #e93f51
+}
+.wojo.info.labels .label,
+.wojo.info.label,
+.wojo.ribbon .ribbon.info {
+  background-color: #4FC1E9;
+  border-color: #4FC1E9;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .info.label:before,
+.wojo.info.labels .label:before,
+.wojo.info.label:before {
+  background-color: #4FC1E9
+}
+a.wojo.info.labels .label:hover,
+.wojo.info.labels a.label:hover,
+a.wojo.info.label:hover {
+  background-color: #39b9e5;
+  border-color: #39b9e5;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.info.label:hover:before,
+.wojo.info.labels a.label:hover:before,
+a.wojo.info.label:hover:before {
+  background-color: #39b9e5
+}
+.wojo.info.corner.label,
+.wojo.info.corner.label:hover {
+  background-color: transparent
+}
+.wojo.info.ribbon.label {
+  border-color: #39b9e5
+}
+.wojo.purple.labels .label,
+.wojo.purple.label,
+.wojo.ribbon .ribbon.purple {
+  background-color: #AC92EC;
+  border-color: #AC92EC;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .purple.label:before,
+.wojo.purple.labels .label:before,
+.wojo.purple.label:before {
+  background-color: #AC92EC
+}
+a.wojo.purple.labels .label:hover,
+.wojo.purple.labels a.label:hover,
+a.wojo.purple.label:hover {
+  background-color: #9c7de8;
+  border-color: #9c7de8;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.purple.label:hover:before,
+.wojo.purple.labels a.label:hover:before,
+a.wojo.purple.label:hover:before {
+  background-color: #9c7de8
+}
+.wojo.purple.corner.label,
+.wojo.purple.corner.label:hover {
+  background-color: transparent
+}
+.wojo.purple.ribbon.label {
+  border-color: #9c7de8
+}
+.wojo.warning.labels .label,
+.wojo.warning.label,
+.wojo.ribbon .ribbon.warning {
+  background-color: #FFCE54;
+  border-color: #FFCE54;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .warning.label:before,
+.wojo.warning.labels .label:before,
+.wojo.warning.label:before {
+  background-color: #FFCE54
+}
+a.wojo.warning.labels .label:hover,
+.wojo.warning.labels a.label:hover,
+a.wojo.warning.label:hover {
+  background-color: #fcc53d;
+  border-color: #fcc53d;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.warning.label:hover:before,
+.wojo.warning.labels a.label:hover:before,
+a.wojo.warning.label:hover:before {
+  background-color: #fcc53d
+}
+.wojo.warning.corner.label,
+.wojo.warning.corner.label:hover {
+  background-color: transparent
+}
+.wojo.warning.ribbon.label {
+  border-color: #fcc53d
+}
+.wojo.teal.labels .label,
+.wojo.teal.label,
+.wojo.ribbon .ribbon.teal {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: rgba(255,255,255,0.80)
+}
+.wojo.labels .teal.label:before,
+.wojo.teal.labels .label:before,
+.wojo.teal.label:before {
+  background-color: #48CFAD
+}
+a.wojo.teal.labels .label:hover,
+.wojo.teal.labels a.label:hover,
+a.wojo.teal.label:hover {
+  background-color: #35c8a3;
+  border-color: #35c8a3;
+  color: rgba(255,255,255,1)
+}
+.wojo.labels a.teal.label:hover:before,
+.wojo.teal.labels a.label:hover:before,
+a.wojo.teal.label:hover:before {
+  background-color: #35c8a3
+}
+.wojo.teal.corner.label,
+.wojo.teal.corner.label:hover {
+  background-color: transparent
+}
+.wojo.teal.ribbon.label {
+  border-color: #35c8a3
+}
+/* == Horizontal == */
+.wojo.horizontal.labels .label,
+.wojo.horizontal.label {
+  margin: -.125em .5em -.125em 0;
+  padding: .35em 1em;
+  min-width: 6em;
+  text-align: center
+}
+/* == Circular == */
+.wojo.circular.labels .label,
+.wojo.circular.label {
+  min-height: 1em;
+  max-height: 2em;
+  padding: .5em;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem
+}
+/* == Pointing == */
+.wojo.pointing.label {
+  position: relative
+}
+.wojo.attached.pointing.label {
+  position: absolute
+}
+.wojo.pointing.label:before {
+  position: absolute;
+  content: "";
+  width: .6em;
+  height: .6em;
+  background-image: none;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: 2;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wojo.pointing.label:before {
+  background-color: #E8E8E8
+}
+.wojo.pointing.label,
+.wojo.pointing.above.label {
+  margin-top: 1em
+}
+.wojo.pointing.label:before,
+.wojo.pointing.above.label:before {
+  margin-left: -.3em;
+  top: -.3em;
+  left: 50%
+}
+.wojo.pointing.below.label {
+  margin-top: 0;
+  margin-bottom: 1em
+}
+.wojo.pointing.below.label:before {
+  margin-left: -.3em;
+  top: auto;
+  right: auto;
+  bottom: -.3em;
+  left: 50%
+}
+.wojo.pointing.left.label {
+  margin-top: 0;
+  margin-left: 1em
+}
+.wojo.pointing.left.label:before {
+  margin-top: -.3em;
+  bottom: auto;
+  right: auto;
+  top: 50%;
+  left: 0
+}
+.wojo.pointing.right.label {
+  margin-top: 0;
+  margin-right: 1em
+}
+.wojo.pointing.right.label:before {
+  margin-top: -.3em;
+  right: -.3em;
+  top: 50%;
+  bottom: auto;
+  left: auto
+}
+/* == Floating == */
+.wojo.floating.label {
+  position: absolute;
+  z-index: 100;
+  top: -1em;
+  left: 100%;
+  margin: 0 0 0 -1.5em
+}
+/* == Ribbons == */
+.wojo.ribbon {
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 85px;
+}
+.wojo.ribbon .ribbon:before {
+  bottom: -1px;
+  left: 0;
+}
+.wojo.ribbon .ribbon:after {
+  right: 0;
+}
+.wojo.ribbon .ribbon:before, 
+.wojo.ribbon .ribbon:after {
+  border-left: 2px solid rgba(0, 0, 0, 0);
+  border-right: 2px solid rgba(0, 0, 0, 0);
+  border-top: 2px solid #797979;
+  bottom: -2px;
+  content: "";
+  position: absolute;
+}
+.wojo.ribbon .ribbon {
+  background-color: #797979;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  display: block;
+  font-size:.95em;
+  font-weight: 600;
+  left: -5px;
+  line-height: 20px;
+  padding: 7px 0;
+  position: relative;
+  text-align: center;
+  top: 15px;
+  transform: rotate(45deg);
+  width: 120px;
+}
+.wojo.top.right.attached.special.label {
+  box-shadow: none;
+  background-color: #E3E4E8;
+  color: #454d55
+}
+/* == Sizes == */
+.wojo.small.labels .label,
+.wojo.small.label {
+  font-size:.75rem;
+  line-height:.75rem
+}
+.wojo.large.labels .label,
+.wojo.large.label {
+  font-size:1rem;
+  line-height:1rem
+}
+.wojo.huge.labels .label,
+.wojo.huge.label {
+  font-size: 1.1rem;
+  line-height:1.1rem
+}

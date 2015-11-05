@@ -1,0 +1,251 @@
+/* == Segment == */
+.wojo.segment {
+  position: relative;
+  -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05);
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: .5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+.wojo.segment:first-child {
+  margin-top: 0
+}
+.wojo.segment:last-child {
+  margin-bottom: 0
+}
+.wojo.segment:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.wojo.segment > :first-child {
+  margin-top: 0
+}
+.wojo.segment > :last-child {
+  margin-bottom: 0
+}
+.wojo.segment > .content {
+  padding: 1em
+}
+/* == Types == */
+.wojo.piled.segment {
+  margin: 2em 0;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  -ms-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  -o-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.15)
+}
+.wojo.piled.segment:first-child {
+  margin-top: 0
+}
+.wojo.piled.segment:last-child {
+  margin-bottom: 0
+}
+.wojo.piled.segment:after,
+.wojo.piled.segment:before {
+  background-color: #FFF;
+  visibility: visible;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -1px;
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.1)
+}
+.wojo.piled.segment:after {
+  -webkit-transform: rotate(1.2deg);
+  -ms-transform: rotate(1.2deg);
+  transform: rotate(1.2deg);
+  top: 0;
+  z-index: -1
+}
+.wojo.piled.segment:before {
+  -webkit-transform: rotate(-1.2deg);
+  -ms-transform: rotate(-1.2deg);
+  transform: rotate(-1.2deg);
+  top: 0;
+  z-index: -2
+}
+.wojo.stacked.segment {
+  padding-bottom: 1.7em
+}
+.wojo.stacked.segment:after,
+.wojo.stacked.segment:before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.02);
+  width: 100%;
+  height: 5px;
+  visibility: visible
+}
+.wojo.stacked.segment:before {
+  bottom: 0
+}
+.wojo.stacked.inverted.segment:after,
+.wojo.stacked.inverted.segment:before {
+  background-color: rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.35)
+}
+.wojo.raised.segment {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1)
+}
+/* == Variations == */
+.wojo.basic.segment {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+  padding: 0;
+}
+.wojo.basic.segment:first-child {
+  padding-top: 0
+}
+.wojo.basic.segment:last-child {
+  padding-bottom: 0
+}
+.wojo.secondary.segment {
+  background-color: #F4F5F7;
+}
+.wojo.tertiary.segment {
+  border: 1px solid rgba(0,0,0,.075);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  margin: 0;
+  position: relative;
+  border-radius: .325em;
+  z-index: 1;
+}
+.wojo.tertiary.segment:before {
+  background-color: rgba(0,0,0,.1);
+  color: #4D76A4;
+  content: "";
+  display: block;
+  height: 3em;
+  left: 0;
+  position: absolute;
+  text-indent: 5px;
+  top: 1em;
+  width: 2px;
+}
+.wojo.tabular.segment {
+  display: table;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  width: 100%
+}
+.wojo.tabular.segment .wojo.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.wojo.tabular.segment .wojo.cell.right {
+  text-align: right
+}
+.wojo.segment > .wojo.header {
+  padding: 1rem;
+  background-color: #F4F5F7;
+  border-radius: .235em .235em 0 0;
+}
+.wojo.segment > .wojo.header:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1
+}
+.wojo.segment > .wojo.header > img{
+   width:45px;
+   float:left;
+   margin-right:1em;
+}
+.wojo.segment > .wojo.header .item {
+  font-size:1.35em;
+  font-family: 'maven_probold';
+}
+.wojo.segment > .wojo.header > span {
+  font-size: 2em;
+  color: #3E4E5D;
+  display: inline-block;
+  line-height: 1.5rem;
+  color: #3E4E5D;
+}
+.wojo.segment > .wojo.header > small {
+  margin-left: 1em;
+  font-family: 'maven_probold';
+  font-size: .85em;
+  text-transform: uppercase;
+  float:right
+}
+.wojo.segment > .wojo.header p {
+  font-size: 1rem;
+  margin-top: .5em;
+  color: #4D76A4;
+}
+.wojo.segment .wojo.content {
+  padding: 1rem;
+}
+.wojo.segment .wojo.footer {
+  padding: 1rem;
+  line-height: 1;
+  background-color: #ECF5FC;
+  border-radius: 0 0 .235em .235em;
+}
+/* == Colors == */
+.wojo.info.segment {
+  background-color: #ECF5FC;
+}
+/* == Attached == */
+.wojo.segment.attached {
+  border-radius: 0;
+  margin: 0;
+}
+.wojo.top.attached.segment {
+  top: 0;
+  bottom: -1px;
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0
+}
+.wojo.segment.top.attached:first-child {
+  margin-top: 0
+}
+.wojo.segment.bottom.attached {
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  border-radius: 0 0 5px 5px
+}
+.wojo.segment.bottom.attached:last-child {
+  margin-bottom: 0
+}
+/* == Loading == */
+.wojo.segment.loading {
+  position: relative
+}
+.wojo.segment.loading:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.8) url(../images/loader-large.gif) no-repeat 50% 50%;
+  visibility: visible;
+  z-index: 5000;
+}

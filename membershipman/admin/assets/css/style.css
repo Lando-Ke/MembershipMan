@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'maven_problack';
+  src: url('../fonts/mavenpro-black.eot');
+  src: url('../fonts/mavenpro-black.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-black.woff') format('woff'), url('../fonts/mavenpro-black.ttf') format('truetype'), url('../fonts/mavenpro-black.svg#maven_problack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'maven_probold';
+  src: url('../fonts/mavenpro-bold.eot');
+  src: url('../fonts/mavenpro-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-bold.woff') format('woff'), url('../fonts/mavenpro-bold.ttf') format('truetype'), url('../fonts/mavenpro-bold.svg#maven_probold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'maven_promedium';
+  src: url('../fonts/mavenpro-medium.eot');
+  src: url('../fonts/mavenpro-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-medium.woff') format('woff'), url('../fonts/mavenpro-medium.ttf') format('truetype'), url('../fonts/mavenpro-medium.svg#maven_promedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'maven_proregular';
+  src: url('../fonts/mavenpro-regular.eot');
+  src: url('../fonts/mavenpro-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/mavenpro-regular.woff') format('woff'), url('../fonts/mavenpro-regular.ttf') format('truetype'), url('../fonts/mavenpro-regular.svg#maven_proregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+html,
+body {
+  font-size: 14px;
+}
+body {
+  font-family: "maven_proregular", ​Arial, ​sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #3E4E5D;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  line-height: 1.4;
+  background-color: #EAE9E5;
+}
+a,
+a.inverted {
+  cursor: pointer;
+  color: #4D76A4;
+  text-decoration: none;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  outline: none
+}
+a:hover,
+a.hover,
+a:focus {
+  color: #FB6767;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -o-transition: all .35s ease;
+  transition: all .55s ease;
+  outline: none;
+  text-decoration: none
+}
+a.inverted,
+p.inverted {
+  color: #fff;
+}
+a.inverted:hover,
+a.inverted.hover,
+a.inverted:focus {
+  color: #434C55;
+}
+h4 {
+  margin:1em 0
+}
+#wrapper {
+  padding: 2em 1em;
+}
+header {
+  border-radius: .5em;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.1);
+}
+#topnav {
+  border-radius: .5em .5em 0 0;
+  background-color: #4D76A4;
+}
+#topnav ul,
+#topnav li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+#topnav ul {
+  display: table;
+  width: 100%;
+}
+#topnav ul li {
+  position: relative;
+  display: table-cell;
+  padding: 1.5em 1em;
+  vertical-align: middle;
+}
+#topnav ul li.right {
+  float: right;
+}
+#topnav ul li a {
+  color: #A3BDD8;
+  display: inline-block;
+  line-height: 1;
+}
+#topnav ul li a:hover {
+  color: #fff
+}
+#topnav ul li .avatar {
+  max-width: 30px;
+  float: left;
+  margin-right: 1em;
+}
+#topnav ul li a i.icon {
+  font-size: 2em;
+}
+#topnav ul li.separator {
+  border-left: 1px solid rgba(0,0,0,0.2);
+  box-shadow: inset 1px 0 0 0 rgba(255,255,255,0.2);
+}
+#topnav ul li.uinfo {
+  padding-right: 4em;
+  white-space: nowrap
+}
+.logo {
+  font-family: 'maven_probold';
+  font-size: 1.4em;
+  line-height: 1;
+}
+nav {
+  padding: .5em 1em;
+  position: relative;
+  text-align: center;
+}
+nav ul,
+nav li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+nav ul {
+  display: inline-block
+}
+nav > ul > li {
+  position: relative;
+  float: left;
+  padding: 1em;
+}
+nav > ul > li > a {
+  display: block;
+  font-family: 'maven_problack';
+  color: #9CA0A9;
+  position: relative;
+  font-size: .85em;
+  text-transform: uppercase;
+}
+nav > ul > li > a i.icon.down {
+  float: right;
+  margin-top: .2em;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a.active {
+  color: #687C95;
+}
+nav > ul > li > a.active {
+}
+nav > ul > li > a.active:after {
+  position: absolute;
+  left: 0;
+  bottom: -2.3em;
+  width: 100%;
+  height: 5px;
+  background: #4D76A4;
+  content: "";
+}
+nav > ul ul {
+  display: none;
+  background-color: #4D76A4;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 3;
+  border-radius: .325em;
+  top: 4.5em;
+}
+nav > ul ul:after {
+  position: absolute;
+  left: 1em;
+  top: -5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #4D76A4;
+  content: "";
+}
+nav > ul > li.opened ul {
+  display: block;
+}
+nav > ul ul > li > a {
+  display: block;
+  padding: .75em 1em;
+  color: #ECF5FC;
+  font-weight: 400;
+  text-align: left;
+}
+nav > ul ul > li > a.active:before {
+  content: "- ";
+}
+nav > ul ul > li > a:hover,
+nav > ul ul > li > a.active {
+  color: #A3BDD8;
+}
+#suggestions {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+footer {
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+@media screen and (min-width:650px) and (max-width:1024px) {
+}
+
+@media screen and (max-width:769px) {
+nav {
+  padding: .5em 1em;
+  position: relative;
+  text-align: left;
+}
+nav ul {
+  display: block
+}
+nav ul > li {
+  padding: 0;
+  float: none;
+  display: block;
+  position: relative;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+nav ul > li:last-child {
+  box-shadow: none;
+}
+nav ul > li > a {
+  text-align: left;
+  font-weight: 400;
+  display: block;
+  position: relative;
+  padding: 1em;
+}
+nav > ul > li > a.active:after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background: #4D76A4;
+  content: "";
+}
+nav ul > li > a > i.icon {
+  font-size: 1em;
+  display: inline-block;
+  margin-right: .5em;
+  margin-bottom: 0;
+}
+nav > ul ul {
+  display: none;
+  background-color: #4D76A4;
+  white-space: nowrap;
+  position: relative;
+  z-index: 3;
+  border-radius: .325em;
+  top: 0;
+}
+}
