@@ -71,7 +71,7 @@
                 </tr>
                 <?php foreach($utransrow as $trow):?>
                 <tr>
-                  <td><a href="<?php echo SITEURL;?>/ajax/controller.php?doInvoice&amp;id=<?php echo $trow->id;?>"><i class="icon pdf outline"></i> <?php echo $trow->title;?></a></td>
+                  <td><a href="<?php echo SITEURL;?>/ajax/controller.php?doInvoice&id=<?php echo $trow->id;?>"><i class="icon pdf outline"></i> <?php echo $trow->title;?></a></td>
                   <td><?php echo Filter::dodate("long_date", $trow->date);?></td>
                 </tr>
                 <?php endforeach;?>
